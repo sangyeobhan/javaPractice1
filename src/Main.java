@@ -17,7 +17,7 @@ public class Main {
 
         System.out.println("=========================");
         System.out.printf("equals Test: jake1.equals(jake2)? %b\n", jake1.equals(jake2));
-        System.out.printf("Same hashcode(jake1 == jake2)? %b\n",jake1 == jake2);
+        System.out.printf("Same hashcode(jake1.hashCode() == jake2.hashCode())? %b\n",jake1.hashCode() == jake2.hashCode());
         System.out.println("=========================");
 
         // 고객 리스트 생성 웹: 3명, 모바일: 3명
